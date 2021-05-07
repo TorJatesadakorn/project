@@ -106,14 +106,12 @@ class App extends Component {
                 <div className="AllSearch" >
                     {
                         hidecomponent == false &&
-                        <Input.Group compact>
                             <Input
                                 className="Search"
                                 placeholder="input title"
                                 onChange={this.onSearch}
                                 style={{ width: 550 }}
                             />
-                        </Input.Group>
                     }
 
                     {
